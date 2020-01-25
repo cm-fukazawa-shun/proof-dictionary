@@ -1,0 +1,19 @@
+id: 01DZDWYAMWMV305WYHBNSB0N1M
+description: DynamoDBの表記揺れを修正
+expected: DynamoDB
+patterns:
+  - dynamodb
+  - dynamo db
+  - Dynamodb
+  - Dynamo
+allows: []
+specs:
+  - from: dynamodb
+    to: DynamoDB
+  - from: dynamo db
+    to: DynamoDB
+  - from: Dynamodb
+    to: DynamoDB
+  - from: Dynamo
+    to: DynamoDB
+tags: []
