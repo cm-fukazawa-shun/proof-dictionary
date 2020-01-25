@@ -1,0 +1,10 @@
+id: 01DZDXK806PYHH85C0Y24YQAEY
+description: ''
+expected: キャパシティー
+patterns:
+  - キャパシティ
+allows: []
+specs:
+  - from: キャパシティ
+    to: キャパシティー
+tags: []
